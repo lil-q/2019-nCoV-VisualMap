@@ -1,10 +1,10 @@
-个人博客：[https://lil-q.github.io/2020/02/01/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%9C%B0%E5%9B%BE/](https://lil-q.github.io/2020/02/01/数据可视化地图/)
+个人博客：[https://lil-q.github.io/2020/02/01/%E5%BA%94%E7%94%A8%E4%B8%80%E5%8F%AF%E8%A7%86%E5%8C%96%E5%9C%B0%E5%9B%BE/](https://lil-q.github.io/2020/02/01/应用一可视化地图/)
+
+效果图：https://lil-q.github.io/pageDemo/render.html
 
 # 数据的获取
 
 在学习[该博客](https://blog.csdn.net/xufive/article/details/104093197)的数据爬取时发现数据似乎已经不再更新，所以重新在[腾讯新闻网站](https://news.qq.com/zt2020/page/feiyan.htm?from=timeline&isappinstalled=0)搜索相关数据。
-
-![shuju](213627.png)
 
 使用`time`、`json`和`requests`获取数据。
 
@@ -120,9 +120,7 @@ map1 = map_visualmap(lastUpdateTime, pieces, data)
 map1.render()
 ```
 
-最后的效果如下，
 
-![xiaoguo](2sd15400.png)
 
 
 
